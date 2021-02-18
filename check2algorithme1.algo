@@ -1,0 +1,17 @@
+ALGORITHM SommeIdentique
+VAR
+  i,j,sum :integer;
+  tab1,tab2 : ARRAY_OF integer[];
+BEGIN
+  Read(tab1)
+  Read(tab2)
+  for(i=0;i<=tab1.length;i++)
+   for(j=0;j<=tab2.length;j++)
+   IF tab1[i]=tab2[j] THEN sum=sum+tba1[i];
+   Write('sum');
+  else Write ('error');
+  END_IF
+  write('la somme est,'sum);
+
+END
+
